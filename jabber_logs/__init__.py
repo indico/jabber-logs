@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 def setup_blueprints(app):
-    from jappix_logs.views import log_views
+    from jabber_logs.views import log_views
     app.register_blueprint(log_views)
 
 
@@ -14,6 +14,7 @@ def make_app(config_file):
     app.debug = app.config.get('DEBUG', False)
     setup_blueprints(app)
     return app
+
 
 def main(application):
     application.run(host=app.config.get('SERVER_HOST', 'localhost'),
