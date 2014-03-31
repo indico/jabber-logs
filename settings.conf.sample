@@ -5,7 +5,7 @@
 # This file is read on the Flask Application startup. If you change any value you will need to
 # restart the Application afterwards to have its changes take effect.
 #
-# Lines starting with "#" are comments and they will be ignored by Indico Mobile.
+# Lines starting with "#" are comments and they will be ignored by Jabber Logs.
 
 # SERVER: It is needed only for the standalone server
 
